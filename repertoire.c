@@ -95,7 +95,7 @@ int main(void)
 	    }
 	}	
 	
-	if (choix == 'd')
+	if (choix == 'e')
 	{
 		fp = fopen ("repertoire.txt", "w+");
 		printf("Vous avez suprimer tout le contenue !");
