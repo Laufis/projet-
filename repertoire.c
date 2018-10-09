@@ -8,7 +8,7 @@ int main(void)
  int i, x, id, ide;
  int *p = &id;
  fp = fopen("repertoire.txt", "a+");
- 
+    printf("hello world");
     printf("Bienvenue sur le logiciel");
  	printf("\n\n***************************************MENU**********************************************\n\n\n");
  	printf("Saisir a pour ajouter une personne dans le repertoire \n");
