@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 int main(void)
  {
  
@@ -9,6 +9,7 @@ int main(void)
  int *p = &id;
  fp = fopen("repertoire.txt", "a+");
  
+    printf("Bienvenue sur le logiciel");
  	printf("\n\n***************************************MENU**********************************************\n\n\n");
  	printf("Saisir a pour ajouter une personne dans le repertoire \n");
 	printf("Saisir b pour afficher le contenu du repertoire\n");
